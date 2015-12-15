@@ -1,6 +1,6 @@
 /*
   Example for different sending methods
-  
+  lex was hier
   http://code.google.com/p/rc-switch/
   
 */
