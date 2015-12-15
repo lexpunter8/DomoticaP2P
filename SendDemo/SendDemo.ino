@@ -1,6 +1,10 @@
 /*
   Example for different sending methods
+<<<<<<< HEAD
   lex was hier
+=======
+  Bauke was hier
+>>>>>>> 654a4f79402bab8522b65e667d066e66242dfed4
   http://code.google.com/p/rc-switch/
   
 */
