@@ -1,6 +1,6 @@
 /*
   Example for different sending methods
-  
+  Bauke was hier
   http://code.google.com/p/rc-switch/
   
 */
