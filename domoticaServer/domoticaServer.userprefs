@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="domoticaServer/domoticaServer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.0-34/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+    <Files>
+      <File FileName="domoticaServer/MainActivity.cs" Line="27" Column="4" />
+      <File FileName="domoticaServer/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="domoticaServer/connect to server.cs" Line="28" Column="4" />
+      <File FileName="domoticaServer/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.0-34/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.domoticaServer AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
