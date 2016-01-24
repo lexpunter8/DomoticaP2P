@@ -1,0 +1,10 @@
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/test33.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.Xml.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/Mono.Android.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/Xamarin.Insights.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.Core.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/mscorlib.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.Runtime.Serialization.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.ServiceModel.Internals.dll
+/Users/lexpunter/Projects/test33/test33/obj/Release/android/assets/System.Net.Http.dll

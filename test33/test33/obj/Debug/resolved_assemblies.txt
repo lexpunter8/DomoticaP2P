@@ -1,0 +1,10 @@
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/test33.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.Xml.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/Mono.Android.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/Xamarin.Insights.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.Core.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/mscorlib.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.Runtime.Serialization.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.ServiceModel.Internals.dll
+/Users/lexpunter/Projects/test33/test33/obj/Debug/assemblies/System.Net.Http.dll

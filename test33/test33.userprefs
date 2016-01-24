@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="test33/test33.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test33/MainActivity.cs">
+    <Files>
+      <File FileName="test33/MainActivity.cs" Line="65" Column="38" />
+      <File FileName="test33/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="test33/obj/Release/android/src/com/companyname/test33/TrialSplashScreen.java" Line="1" Column="1" />
+      <File FileName="../../Downloads/Domotica 2/Domotica/MainActivity.cs" Line="185" Column="127" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test33 AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
