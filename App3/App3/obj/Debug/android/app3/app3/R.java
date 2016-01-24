@@ -17,6 +17,7 @@ public final class R {
     public static final class id {
         public static final int button1=0x7f060001;
         public static final int button2=0x7f060002;
+<<<<<<< HEAD
         public static final int button25=0x7f06000f;
         public static final int button3=0x7f060003;
         public static final int button35=0x7f060014;
@@ -36,6 +37,31 @@ public final class R {
         public static final int toggleButton31=0x7f060010;
         public static final int toolbar1=0x7f060000;
         public static final int toolbar2=0x7f06000d;
+=======
+        public static final int button25=0x7f060014;
+        public static final int button3=0x7f060003;
+        public static final int button35=0x7f060018;
+        public static final int button4=0x7f060004;
+        public static final int button5=0x7f060010;
+        public static final int editText1=0x7f060005;
+        public static final int editText11=0x7f06000d;
+        public static final int editText12=0x7f06000f;
+        public static final int editText21=0x7f060012;
+        public static final int editText22=0x7f060013;
+        public static final int editText31=0x7f060016;
+        public static final int editText32=0x7f060017;
+        public static final int radioButton1=0x7f060008;
+        public static final int radioButton2=0x7f060009;
+        public static final int radioButton3=0x7f06000a;
+        public static final int radioGroup1=0x7f060007;
+        public static final int textView1=0x7f06000c;
+        public static final int textView2=0x7f06000e;
+        public static final int toggleButton1=0x7f060006;
+        public static final int toggleButton2=0x7f060011;
+        public static final int toggleButton3=0x7f060015;
+        public static final int toolbar1=0x7f060000;
+        public static final int toolbar2=0x7f06000b;
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     }
     public static final class layout {
         public static final int main=0x7f030000;

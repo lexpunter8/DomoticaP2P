@@ -33,5 +33,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText1"
+<<<<<<< HEAD
         android:text="Info:" />
+=======
+        android:text="Info:"
+        android:editable="false" />
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
 </LinearLayout>

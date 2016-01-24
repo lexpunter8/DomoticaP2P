@@ -38,7 +38,11 @@
     <ToggleButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/toggleButton21" />
+=======
+        android:id="@+id/toggleButton2" />
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     <RadioGroup
         android:minWidth="25px"
         android:minHeight="25px"
@@ -69,12 +73,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar2">
+<<<<<<< HEAD
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText2"
             android:width="50dp"
             android:editable="true" />
+=======
+        <TextView
+            android:text="Min."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="30dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText21"
+            android:width="50dp"
+            android:editable="true"
+            android:maxLength="3"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:text="Max."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="70dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText22"
+            android:width="50dp"
+            android:editable="true"
+            android:maxLength="3"
+            android:layout_marginLeft="30dp" />
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     </Toolbar>
     <Button
         android:text="Button"

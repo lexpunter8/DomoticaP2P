@@ -16,5 +16,10 @@ c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Deb
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\res\layout\switch1.xml
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\res\layout\switch2.xml
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\res\layout\switch3.xml
+<<<<<<< HEAD
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\App3.dll.mdb
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\bin\Debug\App3.dll.mdb
+=======
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\App3.dll.mdb
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\bin\Debug\App3.dll.mdb
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738

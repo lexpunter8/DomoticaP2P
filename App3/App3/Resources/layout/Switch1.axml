@@ -33,11 +33,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText1"
+<<<<<<< HEAD
         android:text="Switch 1" />
+=======
+        android:text="Switch 1"
+        android:editable="false" />
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     <ToggleButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toggleButton1" />
+<<<<<<< HEAD
     <RadioButton
         android:text="RadioButton"
         android:layout_width="match_parent"
@@ -53,6 +59,65 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/radioButton3" />
+=======
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton"
+            android:id="@+id/radioButton1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:id="@+id/radioButton3" />
+    </RadioGroup>
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:minWidth="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar2">
+        <TextView
+            android:text="Min."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="30dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:width="50dp"
+            android:editable="true"
+            android:maxLength="3"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:text="Max."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="70dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText12"
+            android:width="50dp"
+            android:editable="true"
+            android:maxLength="3"
+            android:layout_marginLeft="30dp" />
+    </Toolbar>
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     <Button
         android:text="Button"
         android:layout_width="match_parent"

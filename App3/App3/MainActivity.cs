@@ -5,6 +5,14 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+<<<<<<< HEAD
+=======
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.IO;
+
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
 
 namespace App3
 {
@@ -16,6 +24,7 @@ namespace App3
         Button buttonS3;
         Button buttonS4;
         ToggleButton ToggleS1;
+<<<<<<< HEAD
         RadioButton RadioS1;
         RadioButton RadioS2;
         RadioButton RadioS3;
@@ -24,6 +33,30 @@ namespace App3
        // TextView minL2S2;
        // TextView maxL1S2;
        // TextView maxL2S2;
+=======
+        ToggleButton ToggleS2;
+        ToggleButton ToggleS3;
+        RadioButton RadioS1;
+        RadioButton RadioS2;
+        RadioButton RadioS3;
+        Button pastoeS1;
+        Button pastoeS2;
+        Button pastoeS3;
+        TextView tekstS1;
+        TextView tekstS2;
+        EditText editS1;
+        EditText editS2;
+        EditText editS3;
+        EditText editS4;
+        EditText editS5;
+        EditText editS6;
+        string aanuitS1;
+        string aanuitS2;
+        string aanuitS3;
+        string minS2;
+        string maxS2;
+        string sensorS2;
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
 
 
         protected override void OnCreate(Bundle bundle)
@@ -38,6 +71,7 @@ namespace App3
             buttonS3 = FindViewById<Button>(Resource.Id.button3);
             buttonS4 = FindViewById<Button>(Resource.Id.button4);
             ToggleS1 = FindViewById<ToggleButton>(Resource.Id.toggleButton1);
+<<<<<<< HEAD
             RadioS1 = FindViewById<RadioButton>(Resource.Id.radioButton1);
             RadioS2 = FindViewById<RadioButton>(Resource.Id.radioButton2);
             RadioS3 = FindViewById<RadioButton>(Resource.Id.radioButton3);
@@ -45,6 +79,29 @@ namespace App3
             
 
             
+=======
+            ToggleS2 = FindViewById<ToggleButton>(Resource.Id.toggleButton2);
+            ToggleS3 = FindViewById<ToggleButton>(Resource.Id.toggleButton3);
+            RadioS1 = FindViewById<RadioButton>(Resource.Id.radioButton1);
+            RadioS2 = FindViewById<RadioButton>(Resource.Id.radioButton2);
+            RadioS3 = FindViewById<RadioButton>(Resource.Id.radioButton3);
+            pastoeS1 = FindViewById<Button>(Resource.Id.button5);
+            pastoeS2 = FindViewById<Button>(Resource.Id.button25);
+            pastoeS3 = FindViewById<Button>(Resource.Id.button35);
+            tekstS1 = FindViewById<TextView>(Resource.Id.textView1);
+            tekstS2 = FindViewById<TextView>(Resource.Id.textView2);
+            editS1 = FindViewById<EditText>(Resource.Id.editText11);
+            editS2 = FindViewById<EditText>(Resource.Id.editText12);
+            editS3 = FindViewById<EditText>(Resource.Id.editText21);
+            editS4 = FindViewById<EditText>(Resource.Id.editText22);
+            editS5 = FindViewById<EditText>(Resource.Id.editText31);
+            editS6 = FindViewById<EditText>(Resource.Id.editText32);
+
+
+
+
+
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
 
 
 
@@ -55,6 +112,41 @@ namespace App3
             buttonS4.Click += buttonS4_Click;
 
 
+<<<<<<< HEAD
+=======
+
+
+
+            pastoeS2.Click += pastoe;
+
+            //    while(true)
+            //    {
+            //        if(ToggleS2.Checked == true)
+            //        {
+            //            aanuitS2 = "aan";
+
+            //        }
+            //        else
+            //        {
+            //            aanuitS2 = "uit";
+            //        }
+
+            //        pastoeS2.Text = aanuitS2;
+            //    }
+        }
+
+        void pastoe(object sender, System.EventArgs e)
+        {
+            
+            sensorS2 = "g";
+            minS2 = "000";
+            maxS2 = "000";
+
+            aanuitS2 = "aan";
+
+            string x = "2" + aanuitS2 + sensorS2 + minS2 + maxS2;
+            connect(x);
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
         }
         void buttonS1_Click(object sender, System.EventArgs e)
         {
@@ -78,6 +170,11 @@ namespace App3
             buttonS2.Click += buttonS2_Click;
             buttonS3.Click += buttonS3_Click;
             buttonS4.Click += buttonS4_Click;
+<<<<<<< HEAD
+=======
+
+            connect("1aanl100300");
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
         }
 
         void buttonS3_Click(object sender, System.EventArgs e)
@@ -111,6 +208,55 @@ namespace App3
             buttonS3 = FindViewById<Button>(Resource.Id.button3);
             buttonS4 = FindViewById<Button>(Resource.Id.button4);
         }
+<<<<<<< HEAD
+=======
+
+        public static string connect(string a)
+        {
+            Socket s = open("192.168.0.106", 3300);
+            write(s, a);
+            string reply = read(s);
+            close(s);
+            System.Console.WriteLine(reply);
+            return reply;
+        }
+
+        public static Socket open(string ipaddress, int portnr)
+        {
+            Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            IPAddress ip = IPAddress.Parse(ipaddress);
+            IPEndPoint endpoint = new IPEndPoint(ip, portnr);
+            System.Console.WriteLine(socket.Connected);
+            socket.Connect(endpoint);
+            if (socket.Connected)
+            {
+                System.Console.WriteLine("Connected to server!");
+            }
+            else {
+                System.Console.WriteLine("Connection failed");
+            }
+            return socket;
+        }
+
+        public static void write(Socket socket, string text)
+        {
+            socket.Send(Encoding.ASCII.GetBytes(text));
+            System.Console.WriteLine("write");
+        }
+        public static string read(Socket socket)
+        {
+            byte[] bytes = new byte[4096];
+            int bytesRec = socket.Receive(bytes);
+            string text = Encoding.ASCII.GetString(bytes, 0, bytesRec);
+            System.Console.WriteLine("read");
+            return text;
+        }
+        public static void close(Socket socket)
+        {
+            socket.Close();
+            System.Console.WriteLine("close");
+        }
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
     }
 }
 

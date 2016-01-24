@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\App3.dll
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\Mono.Android.dll
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\mscorlib.dll
@@ -6,3 +7,13 @@ c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Deb
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.Xml.dll
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.Runtime.Serialization.dll
 c:\users\richa\onedrive\documenten\visual studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+=======
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\App3.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\mscorlib.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.Core.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.Xml.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\richa\OneDrive\Documenten\Visual Studio 2015\Projects\App3\App3\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+>>>>>>> 234423c3a39c74b97a746a716b459a91ee6ec738
